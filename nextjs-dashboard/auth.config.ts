@@ -1,6 +1,7 @@
-import type { NextAtchConfig } from 'next-auth';
+import type { NextAuthConfig } from 'next-auth';
 
 export const authConfig = {
+  providers: [],
   pages: {
     signIn: '/login',
   },
